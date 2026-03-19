@@ -63,7 +63,11 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── Color palette (pastel) ────────────────────────────────────
-COLORS = ["#b8c0ff", "#ffc8dd", "#caffbf", "#ffd6a5", "#a0c4ff", "#bdb2ff"]
+COLORS = [
+    "#b8c0ff", "#ffc8dd", "#caffbf", "#ffd6a5", "#a0c4ff", "#bdb2ff",
+    "#ffadad", "#fdffb6", "#c8b6ff", "#b9fbc0", "#fde4cf", "#f1c0e8",
+    "#a2d2ff", "#cdb4db", "#bee1e6", "#f0efeb", "#dfe7fd"
+]
 CHART_BG = "#ffffff"
 PAPER_BG = "#ffffff"
 FONT_COLOR = "#2d2d2d"
